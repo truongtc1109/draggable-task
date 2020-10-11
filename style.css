@@ -1,0 +1,41 @@
+.ims__rounded_sm {
+    width: 32px;
+    height: 32px;
+}
+.ims_scroll_box{
+    max-height: 87vh;
+    margin: 0 0 5em 0;
+}
+.ims_list_wrapper{
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.ims__card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    position: relative;
+    white-space: normal;
+}
+.card-header{
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.card-body{
+    z-index: 1;
+    min-height: 0;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 10px;
+}
+
+.ims__task{
+    max-width: 100%;
+    min-width: 100%;
+}
